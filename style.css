@@ -1914,3 +1914,103 @@ footer .copyright{
     margin-right:12px;
 
 }
+/* ===============================
+   MOBILE RESPONSIVE FIXES
+================================ */
+
+@media screen and (max-width: 768px) {
+
+html,
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+section{
+    padding:60px 20px;
+}
+
+.container{
+    width:100%;
+    max-width:100%;
+    padding:0 20px;
+}
+
+.hero{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    min-height:100vh;
+    padding-top:100px;
+}
+
+.hero-content{
+    width:100%;
+}
+
+.hero-content h1{
+    font-size:2rem;
+    line-height:1.2;
+}
+
+.hero-content p{
+    font-size:1rem;
+    margin:20px 0;
+}
+
+.hero-image{
+    width:100%;
+    margin-top:30px;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:350px;
+    height:auto;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:25px;
+}
+
+.service-card{
+    width:100%;
+}
+
+.booking-form,
+.contact-form{
+    width:100%;
+    padding:20px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    font-size:16px;
+}
+
+button,
+.btn{
+    width:100%;
+}
+
+nav{
+    padding:15px 20px;
+}
+
+footer{
+    text-align:center;
+    padding:40px 20px;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+}
